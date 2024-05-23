@@ -1,0 +1,34 @@
+/* DataTable.css */
+.table-container {
+    margin-top: 200px;
+  }
+  
+  .table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #fff;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
